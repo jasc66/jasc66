@@ -73,7 +73,7 @@ Soy **Ingeniero Fullstack con más de 18 años** creando sistemas para el sector
 |----------|-------------|-------|
 | **[Rediseño Sitio DGSC](https://dgsc.go.cr)** | Portal institucional — WCAG 2.2 AA, SEO técnico y responsividad. En producción. | HTML · CSS · JS · PHP |
 | **[ChatBot Servicio Civil](https://chatbot-servicio-civil.vercel.app/)** | Chatbot con búsqueda semántica RAG (pgvector + Gemini API) para trámites del DGSC. | Next.js 15 · React 19 · pgvector · Gemini |
-| **[Dashboard Accesibilidad](https://prototipo-accesible.vercel.app/)** | HEvaluación automática WCAG — 97.62% cumplimiento en 252 verificaciones. Tesis 2025. | Next.js 15 · Puppeteer · axe-core · Lighthouse |
+| **[Dashboard Accesibilidad](https://prototipo-accesible.vercel.app/)** | Evaluación automática WCAG —2.2, Reportes de cumplimiento, Backlog automaticos. | Next.js 15 · Puppeteer · axe-core · Lighthouse |
 | **[Restaurante De La Finca](https://www.de-lafinca.com/)** | Sitio completo con admin, multiidioma ES/EN, Framer Motion y sistema de reservas. | Next.js 14 · TypeScript · Tailwind · Supabase |
 | **[Portfolio de Ingeniero de Datos Portfolio](https://kevin-portafolio.vercel.app/)** | Portfolio profesional para Kevin Ilama Portuguez, Ingeniero de Datos especializado en SQL, ETL, Power BI y soluciones de integración de datos para empresas. | Next.js · TypeScript · Tailwind |
 | **[ChatBot MAG](https://chatbot-servicio-civil.vercel.app/)** | Asistente conversacional para el Ministerio de Agricultura y Ganadería de Costa Rica. | Next.js · TypeScript · Tailwind |
