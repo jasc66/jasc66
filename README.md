@@ -72,13 +72,13 @@ Soy **Ingeniero Fullstack con más de 18 años** creando sistemas para el sector
 | Proyecto | Descripción | Stack |
 |----------|-------------|-------|
 | **[Rediseño Sitio DGSC](https://dgsc.go.cr)** | Portal institucional — WCAG 2.2 AA, SEO técnico y responsividad. En producción. | HTML · CSS · JS · PHP |
-| **ChatBot Servicio Civil** | Chatbot con búsqueda semántica RAG (pgvector + Gemini API) para trámites del DGSC. | Next.js 15 · React 19 · pgvector · Gemini |
-| **CMS Accesible DGSC** | Headless CMS institucional con Directus — gestión autónoma de contenidos, WCAG 2.2 AA. | Directus · Next.js · TypeScript · MySQL |
+| **[ChatBot Servicio Civil](https://chatbot-servicio-civil.vercel.app/)** | Chatbot con búsqueda semántica RAG (pgvector + Gemini API) para trámites del DGSC. | Next.js 15 · React 19 · pgvector · Gemini |
+| **[CMS Accesible DGSC](https://prototipo-accesible.vercel.app/)** | Headless CMS institucional con Directus — gestión autónoma de contenidos, WCAG 2.2 AA. | Directus · Next.js · TypeScript · MySQL |
 | **Dashboard Accesibilidad** | Evaluación automática WCAG — 97.62% cumplimiento en 252 verificaciones. Tesis 2025. | Next.js 15 · Puppeteer · axe-core · Lighthouse |
-| **[Restaurante De La Finca](https://portafolio-pro-jasc.vercel.app/)** | Sitio completo con admin, multiidioma ES/EN, Framer Motion y sistema de reservas. | Next.js 14 · TypeScript · Tailwind · Supabase |
-| **Tienda Virtual Directus** | E-commerce headless con Directus como CMS backend — gestión dinámica de productos. | Next.js · TypeScript · Tailwind · Directus |
-| **ChatBot MAG** | Asistente conversacional para el Ministerio de Agricultura y Ganadería de Costa Rica. | Next.js · TypeScript · Tailwind |
-| **[Portafolio JASC](https://portafolio-pro-jasc.vercel.app/)** | Next.js 15, React 19, WCAG 2.2, modo oscuro/claro, multiidioma. | Next.js 15 · React 19 · TypeScript · Tailwind |
+| **[Restaurante De La Finca](https://www.de-lafinca.com/)** | Sitio completo con admin, multiidioma ES/EN, Framer Motion y sistema de reservas. | Next.js 14 · TypeScript · Tailwind · Supabase |
+| **[Tienda Virtual Directus](https://v0-tienda-virtual-directus.vercel.app/)** | E-commerce headless con Directus como CMS backend — gestión dinámica de productos. | Next.js · TypeScript · Tailwind · Directus |
+| **[ChatBot MAG](https://chatbot-servicio-civil.vercel.app/)** | Asistente conversacional para el Ministerio de Agricultura y Ganadería de Costa Rica. | Next.js · TypeScript · Tailwind |
+| **[Portafolio JASC](https://post-jasc.vercel.app/login)** | Next.js 15, React 19, WCAG 2.2, modo oscuro/claro, multiidioma. | Next.js 15 · React 19 · TypeScript · Tailwind |
 
 ---
 
