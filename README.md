@@ -74,7 +74,7 @@ Soy **Ingeniero Fullstack con más de 18 años** creando sistemas para el sector
 | **[Rediseño Sitio DGSC](https://dgsc.go.cr)** | Portal institucional — WCAG 2.2 AA, SEO técnico y responsividad. En producción. | HTML · CSS · JS · PHP |
 | **[ChatBot Servicio Civil](https://chatbot-servicio-civil.vercel.app/)** | Chatbot con búsqueda semántica RAG (pgvector + Gemini API) para trámites del DGSC. | Next.js 15 · React 19 · pgvector · Gemini |
 | **[CMS Accesible DGSC](https://prototipo-accesible.vercel.app/)** | Headless CMS institucional con Directus — gestión autónoma de contenidos, WCAG 2.2 AA. | Directus · Next.js · TypeScript · MySQL |
-| **Dashboard Accesibilidad** | Evaluación automática WCAG — 97.62% cumplimiento en 252 verificaciones. Tesis 2025. | Next.js 15 · Puppeteer · axe-core · Lighthouse |
+| **Dashboard Accesibilidad**(https://prototipo-accesible.vercel.app/)** | Evaluación automática WCAG — 97.62% cumplimiento en 252 verificaciones. Tesis 2025. | Next.js 15 · Puppeteer · axe-core · Lighthouse |
 | **[Restaurante De La Finca](https://www.de-lafinca.com/)** | Sitio completo con admin, multiidioma ES/EN, Framer Motion y sistema de reservas. | Next.js 14 · TypeScript · Tailwind · Supabase |
 | **[Tienda Virtual Directus](https://v0-tienda-virtual-directus.vercel.app/)** | E-commerce headless con Directus como CMS backend — gestión dinámica de productos. | Next.js · TypeScript · Tailwind · Directus |
 | **[ChatBot MAG](https://chatbot-servicio-civil.vercel.app/)** | Asistente conversacional para el Ministerio de Agricultura y Ganadería de Costa Rica. | Next.js · TypeScript · Tailwind |
@@ -93,45 +93,93 @@ Soy **Ingeniero Fullstack con más de 18 años** creando sistemas para el sector
 
 ---
 
-## 🏛️ Experiencia Profesional
+ ## 🏛️ Experiencia Profesional
 
-**🌐 DGSC — Dirección General del Servicio Civil** · *Jun 2024 – Actualidad*
-> Analista de Sistemas Informáticos (Interino)
-> > `React` `Next.js` `TypeScript` `Directus` `MySQL` `PostgreSQL` `WCAG 2.2` `SEO`
-> >
-> > **🌾 MAG — Ministerio de Agricultura y Ganadería** · *Sep 2008 – Dic 2023 (15 años)*
-> > > Programador II (En propiedad)
-> > > > `React` `Next.js` `MongoDB` `Node.js` `SharePoint` `Power BI` `Power Automate`
-> > > >
-> > > > **🎓 MEP-IPEC — Profesor Técnico en Informática** · *Mar 2006 – Sep 2008*
-> > > > > Ministerio de Educación Pública
-> > > > >
-> > > > > **🔧 Freelance** · *Variable – Actualidad*
-> > > > > > Portafolios · E-commerce · Sistemas de gestión
-> > > > > > > `React` `Next.js` `TypeScript` `Tailwind` `Directus` `MongoDB` `PHP`
-> > > > > > >
-> > > > > > > ---
-> > > > > > >
-> > > > > > > ## 🎓 Educación & Certificaciones
-> > > > > > >
-> > > > > > > - 🎓 **Lic. Ingeniería Informática** con Énfasis en Gerencia Informática — *Universidad Central · 2025*
-> > > > > > > -   - Tesis: Dashboard dinámico para evaluación de accesibilidad web (WCAG 2.2, Ley N.° 7600)
-> > > > > > >     - - 🎓 **Bach. Ingeniería de Sistemas** — *Universidad Latina · 2019*
-> > > > > > >       - - 🎓 **Lic. Informática Educativa** — *Universidad Latina · 2009*
-> > > > > > >        
-> > > > > > >         - **Certificaciones:** ISO 9001:2008 Auditor Interno · React (Hooks, Context, Redux) · PL/SQL y Oracle Forms · Desarrollo Web Completo
-> > > > > > >        
-> > > > > > >         - ---
-> > > > > > >
-> > > > > > > ## ♿ Compromiso con la Accesibilidad Web
-> > > > > > >
-> > > > > > > Mi especialización en accesibilidad no es un checklist — es el centro de mi práctica. He liderado auditorías **WCAG 2.2 AA** en sistemas gubernamentales, desarrollado herramientas de evaluación automática con **axe-core** y **Lighthouse**, y formado equipos en buenas prácticas inclusivas en el sector público costarricense.
-> > > > > > >
-> > > > > > > > *"El código accesible no es código especial — es simplemente buen código."*
-> > > > > > > >
-> > > > > > > > ---
-> > > > > > > >
-> > > > > > > > <div align="center">
+**🌐 Analista de Sistemas Informáticos** · *Interino* · [DGSC — Dirección General del Servicio Civil](https://www.dgsc.go.cr/) · *Jun 2024 – Actualidad*
+
+Liderazgo del rediseño y publicación del sitio web institucional del DGSC con foco en accesibilidad WCAG 2.2 AA, SEO técnico y desarrollo fullstack bajo directriz presidencial.
+
+- Rediseño completo y publicación del sitio web institucional aplicando WCAG 2.2 AA y SEO técnico, por directriz presidencial.
+- Liderazgo del nuevo sitio web institucional: levantamiento de requerimientos, diseño de arquitectura e implementación fullstack.
+- Desarrollo de CMS institucional propio con Directus (headless CMS), React, Next.js, TypeScript, Tailwind CSS y MySQL.
+- Administración de servidores Windows y gestión de bases de datos MySQL.
+- Soporte de sistemas críticos: Sistema de Salarios, Campus Virtual CECADES, Gestor Documental, CIDSECI y Normativa Salarial.
+
+`React` `Next.js` `TypeScript` `Tailwind CSS` `Directus` `MySQL` `PostgreSQL` `pgvector` `Google Gemini API` `Windows Server` `WCAG 2.2` `SEO`
+
+---
+
+**💻 Analista Programador Mid** · [Coopealianza R.L.](https://coopealianza.fi.cr/) · *Dic 2023 – May 2024*
+
+Desarrollo de módulos financieros críticos en Oracle Forms y PL/SQL, con énfasis en calidad, integración de servicios y coordinación de entregas.
+
+- Desarrollo de módulos e interfaces en Oracle Forms para sistemas financieros.
+- Implementación de procedimientos almacenados y funciones en PL/SQL para procesos financieros críticos.
+- Desarrollo de sistema de validación y cambio de estados de oportunidades financieras (flujo de estados), de alto impacto organizacional.
+- Aseguramiento de calidad (QA): pruebas funcionales, documentación y revisión de código.
+- Desarrollo de APIs REST para integración de servicios y sistemas internos.
+- Coordinación de pases a producción con áreas técnicas y usuarios finales.
+
+`Oracle Forms` `PL/SQL` `API REST` `QA`
+
+---
+
+**🌾 Programador II** · *En propiedad* · [MAG — Ministerio de Agricultura y Ganadería](https://www.mag.go.cr/) · *Sep 2008 – Dic 2023 (15 años)*
+
+Diseño, desarrollo e implementación de sistemas institucionales, automatización de reportería y soporte técnico sobre plataformas MERN y Microsoft 365.
+
+- Diseño, desarrollo, implementación y mantenimiento de sistemas de información institucionales.
+- Desarrollo de intranet para 8 Direcciones Regionales y Agencias de Extensión con Microsoft 365, SharePoint y JavaScript.
+- Implementación de dashboards y automatización de reportería institucional con Power BI, Power Automate y Power Apps.
+- Desarrollo de sistema de itinerarios y reportes de actividades sobre plataforma MERN (React, Next.js, MongoDB, Node.js).
+- Liderazgo de proyectos de telefonía IP e integración de tecnología avanzada.
+
+`React` `Next.js` `MongoDB` `Node.js` `SharePoint` `Power BI` `Power Automate` `Power Apps` `Microsoft 365` `JavaScript`
+
+---
+
+**🎓 Profesor Técnico Profesional en Informática** · [MEP — IPEC](https://www.mep.go.cr/) · *Mar 2006 – Sep 2008*
+
+Diseño e impartición de cursos técnicos en informática para jóvenes y adultos en proceso de formación técnica (Informática, Word, Excel, PowerPoint, Bases de Datos).
+
+`Word` `Excel` `PowerPoint` `Bases de Datos`
+
+---
+
+**🔧 Freelance** · *Variable – Actualidad*
+
+Desarrollo de proyectos para clientes y uso personal: portafolios profesionales, sitios para negocios locales, e-commerce y sistemas de gestión.
+
+- Portafolios profesionales para Kevin Ilama (Ingeniero de Datos) y Karla Brenes (Analista Programador).
+- Sitio web completo y landing page para Restaurante De La Finca (Quepos, Costa Rica).
+- Tienda virtual con Directus como CMS headless con gestión dinámica de productos.
+- Aplicación UpTask de gestión de proyectos y tareas (MERN stack).
+- Sitios web para negocios locales: salón de belleza, clínica de psicología y King Kong Barber.
+
+`React` `Next.js` `TypeScript` `Tailwind CSS` `Directus` `MongoDB` `Node.js` `PHP` `SQL` `Framer Motion`
+
+---
+
+## 🎓 Educación & Certificaciones
+
+- 🎓 **Lic. Ingeniería Informática** con Énfasis en Gerencia Informática — *Universidad Central · 2025*
+  - Tesis: Dashboard dinámico para evaluación de accesibilidad web (WCAG 2.2, Ley N.° 7600)
+- 🎓 **Bach. Ingeniería de Sistemas** — *Universidad Latina · 2019*
+- 🎓 **Lic. Informática Educativa** — *Universidad Latina · 2009*
+
+**Certificaciones:** ISO 9001:2008 Auditor Interno · React (Hooks, Context, Redux) · PL/SQL y Oracle Forms · Desarrollo Web Completo
+
+---
+
+## ♿ Compromiso con la Accesibilidad Web
+
+Mi especialización en accesibilidad no es un checklist — es el centro de mi práctica. He liderado auditorías **WCAG 2.2 AA** en sistemas gubernamentales, desarrollado herramientas de evaluación automática con **axe-core** y **Lighthouse**, y formado equipos en buenas prácticas inclusivas en el sector público costarricense.
+
+> *"El código accesible no es código especial — es simplemente buen código."*
+
+---
+
+<div align="center">
 
 **¿Hablamos?** Estoy disponible para proyectos freelance y colaboraciones.
 
