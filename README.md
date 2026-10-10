@@ -4,7 +4,7 @@
 
 [![Portfolio](https://img.shields.io/badge/🌐%20Portfolio-0ea5e9?style=for-the-badge&logoColor=white)](https://portafolio-pro-jasc.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alonso-salguero/)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jasc66@gmail.com)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jalonsc66@gmail.com)
 [![Costa Rica](https://img.shields.io/badge/📍%20Costa%20Rica-002B7F?style=for-the-badge&logoColor=white)](https://github.com/jasc66)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=jasc66&color=0ea5e9&style=flat-square&label=Profile+Views)
@@ -69,15 +69,39 @@ Soy **Ingeniero Fullstack con más de 18 años** creando sistemas para el sector
 
 ## 🚀 Proyectos Destacados
 
-| Proyecto | Descripción | Stack |
-|----------|-------------|-------|
-| **[Rediseño Sitio DGSC](https://dgsc.go.cr)** | Portal institucional — WCAG 2.2 AA, SEO técnico y responsividad. En producción. | HTML · CSS · JS · PHP |
-| **[ChatBot Servicio Civil](https://chatbot-servicio-civil.vercel.app/)** | Chatbot con búsqueda semántica RAG (pgvector + Gemini API) para trámites del DGSC. | Next.js 15 · React 19 · pgvector · Gemini |
-| **[Dashboard Accesibilidad](https://prototipo-accesible.vercel.app/)** | Evaluación automática WCAG —2.2, Reportes de cumplimiento, Backlog automaticos. | Next.js 15 · Puppeteer · axe-core · Lighthouse |
-| **[Restaurante De La Finca](https://www.de-lafinca.com/)** | Sitio completo con admin, multiidioma ES/EN, Framer Motion y sistema de reservas. | Next.js 14 · TypeScript · Tailwind · Supabase |
-| **[Portfolio de Ingeniero de Datos Portfolio](https://kevin-portafolio.vercel.app/)** | Portfolio profesional para Kevin Ilama Portuguez, Ingeniero de Datos especializado en SQL, ETL, Power BI y soluciones de integración de datos para empresas. | Next.js · TypeScript · Tailwind |
-| **[Nexo — Gestor de Proyectos SaaS](https://uptask-eta.vercel.app/)** | Plataforma SaaS multi-tenant para gestión de proyectos y tareas colaborativas. Incluye vistas Kanban, Gantt y Calendario, tiempo real con WebSockets, IA integrada (generación de planes, análisis de riesgos, chat con el proyecto), reportes con exportación PDF/Excel, automatizaciones, integraciones externas (Slack, webhooks, iCal), arquitectura multi-organización con roles y planes, autenticación 2FA/TOTP y facturación con Stripe. | React 18 · Vite |
-| **[wcag-agent — CLI de Accesibilidad con IA](https://www.npmjs.com/package/wcag-agent)** | Paquete npm de código abierto que instala un agente de IA especializado en revisión de accesibilidad web (WCAG 2.2 AA) directamente desde el código fuente. Sin servidor ni extensión de navegador: un solo comando (npx wcag-agent) detecta el asistente de IA del desarrollador (Claude Code, Cursor, GitHub Copilot, Windsurf) y copia el agente al lugar correcto. Analiza el código y entrega un reporte con issues críticos, importantes y menores mapeados a criterios WCAG 2.2 específicos. | Node.js · TypeScript |
+> Varios de estos repos son privados (código de clientes o de mi tesis). Los enlaces llevan al sitio en producción o al paquete publicado.
+
+### ♿ Accesibilidad web
+
+| Proyecto | Qué hace | Stack |
+|----------|----------|-------|
+| **[Evaluador de Accesibilidad](https://prototipo-accesible.vercel.app/)** · *tesis* | Plataforma que audita sitios contra WCAG 2.2 AA y la Ley 7600 combinando axe-core, IBM Equal Access y validadores propios. Audita varias páginas en paralelo, genera reportes de cumplimiento y backlog, detecta regresiones entre auditorías, y tiene MFA, API keys, permisos por rol y observabilidad (Sentry, `/api/health`). | Next.js 15 · React 19 · Supabase · Puppeteer · axe-core |
+| **[@jalonsc66/a11y-ci](https://www.npmjs.com/package/@jalonsc66/a11y-ci)** | CLI y GitHub Action del evaluador: rompe el build cuando aparecen problemas de accesibilidad (`--fail-on critical`, `--fail-on-regression`) y exporta JSON o JUnit para el pipeline. | Node.js · TypeScript |
+| **[wcag-agent](https://www.npmjs.com/package/wcag-agent)** | `npx wcag-agent` instala un agente de IA que revisa accesibilidad desde el código fuente en Claude Code, Cursor, Copilot o Windsurf, con hallazgos mapeados a criterios WCAG 2.2. | Node.js · TypeScript |
+
+### 🌎 En producción para clientes
+
+| Proyecto | Qué hace | Stack |
+|----------|----------|-------|
+| **[Habla Conmigo Spanish School](https://www.habla-conmigo.com)** | Sitio de una escuela de español en Costa Rica: clases privadas, grupales y paquetes de alojamiento, con formulario de contacto que envía correo desde dominio propio. | Next.js 16 · React 19 · Tailwind 4 · Resend |
+| **[Restaurante De La Finca](https://www.de-lafinca.com/)** | Sitio completo con admin, ES/EN, sistema de reservas y animaciones. | Next.js · TypeScript · Tailwind · Supabase |
+| **[Kevin Ilama — Portafolio](https://kevin-portafolio.vercel.app/)** | Portafolio de un ingeniero de datos (SQL, ETL, Power BI). | Next.js · TypeScript · Tailwind |
+
+### 🏛️ GovTech
+
+| Proyecto | Qué hace | Stack |
+|----------|----------|-------|
+| **[Rediseño Sitio DGSC](https://dgsc.go.cr)** | Portal institucional con WCAG 2.2 AA, SEO técnico y diseño responsivo. | HTML · CSS · JS · PHP |
+| **[ChatBot Servicio Civil](https://chatbot-servicio-civil.vercel.app/)** | Chatbot con búsqueda semántica (RAG con pgvector + Gemini) para trámites del DGSC. | Next.js 15 · React 19 · pgvector · Gemini |
+
+### 🧪 Productos y herramientas
+
+| Proyecto | Qué hace | Stack |
+|----------|----------|-------|
+| **[Nexo — Gestor de Proyectos SaaS](https://uptask-eta.vercel.app/)** | SaaS multi-organización: Kanban, Gantt y calendario, tiempo real con WebSockets, IA para planes y riesgos, exportación PDF/Excel, 2FA y facturación con Stripe. | React 18 · Vite |
+| **[GranoAlto](https://granoalto.vercel.app)** | Plantilla de tienda de café con carrito, guía de preparación y pago configurable. | Next.js 16 · TypeScript · Tailwind |
+| **[scroll-flyover](https://github.com/jasc66/scroll-flyover)** · [demo](https://scroll-flyover-demo.vercel.app) | Skill para Claude Code que genera landings con una cámara 3D que recorre la escena al hacer scroll, con Three.js y sin generación de imágenes de pago. | Three.js · WebGL |
+
 ---
 
 ## 📊 GitHub Stats
